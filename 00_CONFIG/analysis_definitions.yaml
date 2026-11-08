@@ -1,0 +1,22 @@
+# Draft configuration; author review required.
+study_name: RA-TKA Version C
+status: local_public_candidate_not_published
+clinical:
+  visits: [Pre, M3, M6, M12]
+  available_crp: {Pre: 80, M3: 75, M6: 57, M12: 46}
+  input_policy: institution_authorized_workbook_required
+bulk:
+  gse225731: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225731
+  gse198520: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198520
+  normalization: TMM -> log2(CPM+1) -> gene-wise z-score -> within-set mean
+ecm:
+  ecm64: REACTOME_COLLAGEN_DEGRADATION
+  ecm33: Xenium-covered-subset-of-frozen-ECM64
+  structural: frozen COL membership
+  processing: frozen non-COL operational membership
+xenium:
+  source: https://doi.org/10.5281/zenodo.15058262
+  donor_is_inferential_unit: true
+  raw_archives_included: false
+random_seed:
+  spatial_null: 20261029
