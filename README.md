@@ -30,17 +30,3 @@ Public transcriptomic datasets:
         
         
         )                                                                                                                             &#x20;
-
-Individual-level clinical data are not publicly available and are not available upon request because of patient confidentiality and institutional data-governance restrictions.
-
-## Code release status
-
-The analysis code is undergoing final reproducibility, privacy, security and licensing review. The public release will distinguish workflows that can be executed using publicly available data from clinical analyses that require restricted institutional data.
-
-## Citation
-
-A citable software release and permanent archive DOI will be added after publication of the reviewed code.
-
-## License
-
-To be finalized following author approval and review of third-party licensing requirements.
