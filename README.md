@@ -1,2 +1,46 @@
-# ra-tka-crp-ecm-analysis
-Analysis code for postoperative CRP trajectories and synovial ECM transcriptional signatures in rheumatoid arthritis.
+# RA-TKA CRP and Synovial ECM Analysis
+
+**Analysis code accompanying an exploratory multicohort study of rheumatoid arthritis, total knee arthroplasty, and synovial extracellular matrix transcription.**
+
+## Study overview
+
+This repository is being prepared to support a study examining longitudinal C-reactive protein (CRP) measurements after total knee arthroplasty in rheumatoid arthritis and the cellular organization of a candidate synovial extracellular matrix (ECM) transcriptional signature.
+
+The study integrates four independent resources:
+
+- A retrospective single-center RA-TKA clinical cohort (80 patients).
+- Synovial bulk RNA-seq discovery data (GSE225731).
+- Independent synovial RNA-seq assessment data (GSE198520).
+- Published rheumatoid arthritis Xenium spatial transcriptomic data.
+
+The clinical and public transcriptomic datasets do not contain matched patients.
+
+## Data availability
+
+Public transcriptomic datasets:
+
+- GSE225731: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225731](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225731)
+- GSE198520: [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198520](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE198520)
+- Xenium: [https://doi.org/10.5281/zenodo.15058262
+        
+        
+        
+        ](https://doi.org/10.5281/zenodo.15058262
+        
+        
+        
+        )                                                                                                                             &#x20;
+
+Individual-level clinical data are not publicly available and are not available upon request because of patient confidentiality and institutional data-governance restrictions.
+
+## Code release status
+
+The analysis code is undergoing final reproducibility, privacy, security and licensing review. The public release will distinguish workflows that can be executed using publicly available data from clinical analyses that require restricted institutional data.
+
+## Citation
+
+A citable software release and permanent archive DOI will be added after publication of the reviewed code.
+
+## License
+
+To be finalized following author approval and review of third-party licensing requirements.
